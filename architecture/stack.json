@@ -1,0 +1,21 @@
+{
+ "$schema": "https://docs.facets.cloud/schemas/stack.schema",
+ "composition": {
+  "plugins": []
+ },
+ "stackVariables": {
+
+ },
+ "clusterVariablesMeta": {
+        "DEMO_SECRET": {
+            "secret": "true",
+            "value": "demo-secret"
+        },
+        "TITLE": {
+            "value": "Mr."
+        }
+ },
+ "componentVersions": {
+  "KUBERNETES": "1.21"
+ }
+}
